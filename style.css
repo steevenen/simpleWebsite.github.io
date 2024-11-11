@@ -24,6 +24,7 @@ nav ul{
 nav ul h1{
     float: left;
     animation: slide3 0.5s ease-in;
+    text-shadow: 2px 2px 4px black;
 }
 nav ul h1 a{
     text-decoration: none;
@@ -45,12 +46,11 @@ nav ul li a{
     border-radius: 1rem;
 }
 nav ul li a:hover{
-    color: white;
-    background-color: black;
-    border-radius: 2rem;
+    text-shadow: 5px 5px 3px black;
 }
 nav ul li .Home{
     text-decoration: underline;
+    text-shadow: 5px 5px 6px black;
 }
 section{
     background-color: whitesmoke;
@@ -68,6 +68,7 @@ section h1{
     text-align: center;
     margin: 20vh auto 5vh auto;
     animation: slide1 1.5s ease-out;
+    box-shadow: 5px 5px 10px;
 }
 section button{
     width: 8vw;
@@ -78,10 +79,13 @@ section button{
     animation: slide2 2.5s ease;
     transition: 0.4s;
     color: white;
+    box-shadow: 1px 1px 10px;
+    box-shadow: -5px 3px 10px black;
 }
 section button:hover{
     background-color: black;
     color: white;
+    text-shadow: 10px 5px 10px;
 }
 section button a{
     text-decoration: none;
