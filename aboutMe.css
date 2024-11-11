@@ -24,6 +24,7 @@ nav ul{
 nav ul h1{
     float: left;
     animation: slide3 0.5s ease-in;
+    text-shadow: 2px 2px 4px black;
 }
 nav ul h1 a{
     text-decoration: none;
@@ -45,12 +46,11 @@ nav ul li a{
     border-radius: 1rem;
 }
 nav ul li a:hover{
-    color: white;
-    background-color: black;
-    border-radius: 2rem;
+    text-shadow: 5px 5px 3px black;
 }
 nav ul li .aboutMe{
     text-decoration: underline;
+    text-shadow: 5px 5px 6px black;
 }
 section{
     background-color: whitesmoke;
@@ -62,7 +62,7 @@ section{
 .container{
     width: 75vw;
     height: 70vh;
-    margin: 5vh auto 2vh auto;
+    margin: 5vh auto 3vh auto;
     display: flex;
     background-color: whitesmoke;
 }
@@ -80,33 +80,37 @@ section{
     width: 35vw;
     height: 35vh;
     border: 2px solid black;
-    margin: 5vh 0.3vw 0 auto;
+    margin: 5vh 0.5vw 0 auto;
     animation: block1 2s ease;
     background-color: white;
+    box-shadow: 4px 4px 10px;
 }
 .container2{
     width: 35vw;
     height: 35vh;
     border: 2px solid black;
-    margin: 15vh 0.3vw 0 auto;
+    margin: 15vh 0.5vw 0 auto;
     animation: block2 2s ease;
     background-color: white;
+    box-shadow: 4px 4px 10px;
 }
 .container3{
     width: 35vw;
     height: 35vh;
     border: 2px solid black;
-    margin: 25vh 0.3vw 0 auto;
+    margin: 25vh 0.5vw 0 auto;
     animation: block3 2s ease;
     background-color: white;
+    box-shadow: 4px 4px 10px;
 }
 .container4{
     width: 35vw;
     height: 35vh;
     border: 2px solid black;
-    margin: 35vh 0.3vw 0 auto;
+    margin: 35vh 0.5vw 0 auto;
     animation: block4 2s ease;
     background-color: white;
+    box-shadow: 4px 4px 10px;
 }
 section button{
     width: 8vw;
@@ -117,6 +121,7 @@ section button{
     animation: slide2 2.5s ease;
     transition: 0.4s;
     color: white;
+    box-shadow: 5px 3px 10px black;
 }
 section button:hover{
     background-color: black;
